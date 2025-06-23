@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOSBridges'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Caf iOS Bridges SDK'
   s.homepage         = 'https://github.com/combateafraude/ios-caf-sdk-bridges'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
