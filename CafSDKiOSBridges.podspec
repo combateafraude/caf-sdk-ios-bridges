@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'CafSDKCommonsBridgeiOS' do |cb|
     cb.vendored_frameworks = 'Frameworks/CafSDKCommonsBridge.xcframework'
-    cb.dependency 'CafSDKiOS/Core', caf_sdk_ios_version
+    cb.dependency 'CafSDKiOS/CafCore', caf_sdk_ios_version
     cb.dependency 'CafSolutions', caf_solutions_version
   end
 
