@@ -35,10 +35,44 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CafSDKCommonsBridge",
+        "printedName": "CafSDKCommonsBridge",
+        "declKind": "Import",
+        "moduleName": "CafFaceLivenessBridge"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CafFaceLivenessBridgeMain",
         "printedName": "CafFaceLivenessBridgeMain",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkBridgePlatform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CafFaceLivenessBridgeMain",
+                "printedName": "CafFaceLivenessBridge.CafFaceLivenessBridgeMain",
+                "usr": "s:21CafFaceLivenessBridge0abcD4MainC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CafSdkBridgePlatform",
+                "printedName": "CafSDKCommonsBridge.CafSdkBridgePlatform",
+                "usr": "s:19CafSDKCommonsBridge0a3SdkC8PlatformO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC03sdkD8PlatformAC0a10SDKCommonsD00a3SdkdG0O_tcfc",
+            "moduleName": "CafFaceLivenessBridge",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
           {
             "kind": "Function",
             "name": "applySettings",
@@ -63,12 +97,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
-            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStFZ",
+            "usr": "s:21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
+            "mangledName": "$s21CafFaceLivenessBridge0abcD4MainC13applySettings27cafSdkConfigurationInstance10jsonStringy0A3SDK0A16SDKConfigurationC_SStF",
             "moduleName": "CafFaceLivenessBridge",
-            "static": true,
             "declAttributes": [
-              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -81,7 +113,6 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
