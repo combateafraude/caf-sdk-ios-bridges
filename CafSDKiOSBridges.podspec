@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CafSDKiOSBridges'
-  s.version             = '1.3.3'
+  s.version             = '1.4.0-rc.1'
   s.summary          = 'Caf iOS Bridges SDK'
   s.homepage         = 'https://github.com/combateafraude/caf-sdk-ios-bridges'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
 
   s.default_subspec = 'Core'
 
-  caf_solutions.version             = '1.3.3'
-  caf_sdk_ios.version             = '1.3.3'
+  caf_solutions.version             = '1.4.0-rc.1'
+  caf_sdk_ios.version             = '1.4.0-rc.1'
 
   s.subspec 'Core' do |core|
     core.dependency 'CafSDKiOS/DocumentDetector'
